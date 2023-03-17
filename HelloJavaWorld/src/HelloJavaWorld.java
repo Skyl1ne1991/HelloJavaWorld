@@ -3,7 +3,12 @@ public class HelloJavaWorld {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello JavaWorld");
+		int dirk = 0;
+		
+		while(dirk<5) {
+		System.out.println("Hello JavaWorld "+ dirk);
+		dirk++;
+		}
 
 	}
 
